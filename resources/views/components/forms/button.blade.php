@@ -1,0 +1,1 @@
+<button type="{{ $type }}" {{ $attributes->merge(['class' => 'h-10 rounded-lg']) }}>{{ $value }}</button>
